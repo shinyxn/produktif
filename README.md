@@ -6,8 +6,7 @@
 Instal package ini secara global menggunakan npm
 ```
 # npm install produktif -g
-
-```
+``` 
 atau jika kamu ingin memasukkan ke dalam projectmu
 
 ```
