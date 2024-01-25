@@ -1,6 +1,6 @@
 {
   "name": "produktif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto produktif ygy",
   "main": "bin/index.js",
   "type": "module",
