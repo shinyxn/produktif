@@ -1,11 +1,15 @@
 {
   "name": "produktif",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "auto produktif ygy",
   "main": "bin/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinyxn/produktif.git"
   },
   "keywords": [
     "produktif"
@@ -14,5 +18,9 @@
     "produktif": "./bin/index.js"
   },
   "author": "shinyxn",
-  "license": "ISC"
+  "license": "MIT",
+    "bugs": {
+    "url": "https://github.com/shinyxn/produktif/issues"
+  },
+  "homepage": "https://github.com/shinyxn/produktif#readme"
 }
