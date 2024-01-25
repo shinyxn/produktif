@@ -2,17 +2,10 @@
 import { spawn } from "child_process";
 
 const langsungproduktif = "https://web.facebook.com";
-const cmd =
-  process.platform == "darwin"
-    ? "open"
-    : process.platform == "win32"
-    ? "start"
-    : "xdg-open";
+const cmd = process.platform === "darwin" ? "open" : process.platform === "win32" ? "cmd.exe" : "xdg-open";
+const args = process.platform === "win32" ? ["/c", "start", langsungproduktif] : [langsungproduktif];
 
-const child = spawn(cmd, [langsungproduktif], {
-  detached: true,
-  stdio: "ignore",
-});
+const child = spawn(cmd, args, { detached: true, stdio: "ignore" });
 
 child.unref();
 
